@@ -1,0 +1,82 @@
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a:hover {
+    color: fuchsia;
+    font-size: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.menu {
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.forma {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.forma form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
